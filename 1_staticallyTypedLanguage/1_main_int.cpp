@@ -21,7 +21,20 @@ int main()
     int integer_one;
     integer_one = 5;
 
-    std::cout << "Variable 1: " << integer_one;
+    std::cout << "Variable 1: " << integer_one << std::endl;
+
+    // TODO: Define a variable called integer_two and assign a value of 9.
+    int integer_two;
+    integer_two = 9;
+    std::cout << "Variable 2: " << integer_two << std::endl;
+
+    // TODO: Calculate the sum of integer_one and integer_two
+    // and assign the result to integer_sum
+    int integer_sum;
+    integer_sum = integer_one + integer_two;
+
+    // Outputs the results to standard out
+    std::cout << "Sum total: " << integer_sum << std::endl;
 
     return 0;
 }
