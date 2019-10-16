@@ -20,4 +20,8 @@ int main()
 
     int integer_one;
     integer_one = 5;
+
+    std::cout << "Variable 1: " << integer_one;
+
+    return 0;
 }
