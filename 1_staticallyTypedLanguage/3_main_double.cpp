@@ -1,3 +1,7 @@
+/*
+*  Using Double vs Float in CPP
+*/
+
 #include <stdio.h>
 
 int main()
@@ -12,20 +16,21 @@ int main()
 
     int divisions = 100000;
 
+    printf("Result should be close to: 11.0\n\n");
+
     // divide the floating point numbers by divisions
     float_num = 11.0 / divisions;
     double_num = 11.0 / divisions;
 
-    // sum the number by the number of divisions to see how close the results
-    // get to 11.0
+    // sum the number by the number of divisions to see
+    // how close the result get to 11.0
     for (int i = 0; i < divisions; i++)
     {
         float_sum = float_sum + float_num;
         double_sum = double_sum + double_num;
     }
 
+    // print the result
     printf("Floating point sum: %.15g\n", float_sum);
     printf("Double sum: %.15g\n", double_sum);
-
-    return 0;
 }
