@@ -1,4 +1,3 @@
-
 // C++ code can only output 1 value
 // Can also define without declaring first before main function
 // Note: Note the best practice
