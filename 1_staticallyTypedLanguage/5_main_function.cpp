@@ -1,3 +1,8 @@
+/* Function in C++
+*  Declare First before main function
+*  Define Function and return value after main function
+*/
+
 //TODO: include the iostream part of the standard library
 #include <iostream>
 
