@@ -7,6 +7,8 @@ int main(){
     printf("Masukkan sebuah angka : ");
     scanf("%d", &angka1);
 
+    while(getchar() != '\n');
+
     printf("Masukkan sebuah kalimat: ");
     gets(kalimat);
 
